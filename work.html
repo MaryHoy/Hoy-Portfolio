@@ -9,143 +9,239 @@
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
-    />
+      />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:400,700"
       rel="stylesheet"
-    />
+      />
     <link rel="stylesheet" type="text/css" href="css/style.production.css" />
   </head>
   <body>
-    <!-- Header including the logo and the main navigation -->
     <header class="page-header">
-      <!-- Add Logo here -->
       <img src="img/mary-hoy-logo.png" alt="logo" class="page-header__item" />
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-list__item"
-              >Home</a
-            >
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active">Home</a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About Me</a
-            >
+            <a href="about.html" role="menuitem" class="navigation-list__item">About
+              Me</a>
           </li>
           <li role="presentation">
             <a
               href="work.html"
               role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
-              >Work</a
-            >
+              class="navigation-list__item navigation-list__item--active">Work</a>
           </li>
           <li role="presentation">
-            <a href="contact.html" role="menuitem" class="navigation-list__item"
-              >Contact</a
-            >
+            <a href="contact.html" role="menuitem"
+              class="navigation-list__item">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section>
-      <h1>Work</h1>
+    <div>
+      <h1>Mary's Projects</h1>
+    </div>
+
+    <div class="content">
       <div class="grid">
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <div class="grid__item">
-          <h2>Mobile web app</h2>
-          <p>
-            Within this project, I was responsible for the frontend. It’s
-            written in React.js. Additionally, I've created the HTML and CSS
-            templates.
-          </p>
-          <a href="#">See project on GitHub</a>
-        </div>
-        <footer class="page__footer">
-          <p>Find me on</p>
-          <div class="social-media">
-            <a href="https://github.com/MaryHoy/hello-world"
-              ><img src="img/github_icon.svg" alt="github" class="github_icon"
-            /></a>
-            <a href="https://twitter.com/careerfoundry"
-              ><img
-                src="img/twitter_icon.svg"
-                alt="twitter"
-                class="twitter_icon"
-            /></a>
-            <a href="https://www.linkedin.com/in/mary-hoy-82104422/"
-              ><img
-                src="img/linkedin_icon.svg"
-                alt="linkedin"
-                class="linkedin_icon"
-            /></a>
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/myflix.png"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">myFlix</div>
+              <p>
+                An app that allows users to view information about different
+                movies
+                including Description, Genre and Director. Users can sign up for
+                an account and add favorite movies to their profile. It utilizes
+                password hashing to encrypt users’ passwords. This project was
+                built using the MERN stack (MongoDB, Express, ReactJS, Nodejs)
+                and styled with Bootstrap.
+              </p>
+              <a href="https://github.com/MaryHoy/myflix_api" target="_blank">
+                <button>Code</button>
+              </a>
+              <a
+                href="https://hoymyflix.herokuapp.com/client"
+                target="_blank">
+                <button>Demo</button>
+              </a>
+              <br />
+            </div>
           </div>
-        </footer>
-        <script src="js/tota11y.min.js"></script>
+        </div>
+
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/meetup.png"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Meetup</div>
+              <p>
+                An app was created with React, it is a Progressive Web
+                App allowing it to function as a stand-alone app. The main
+                purpose of this app is to find different events in your area. It
+                uses your location to find events close to you or you can search
+                for a city worldwide. AWS Lambda and OAuth are used to obtain
+                authorization for the Meetup API. Charts were added from
+                ReCharts to display the number of events in the next 7 days and
+                RSVP status for events. Unit testing, integration testing, and
+                user acceptance were preformed using jest to ensure scenarios
+                and features functioned as expected.
+              </p>
+              <a href="https://github.com/maryhoy/meetup" target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://maryhoy.github.io/meetup/" target="_blank">
+                <button>Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/quizapp.png"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">QuizApp</div>
+              <p>
+                An app with three different language quizzes. The demo
+                questions and answers are stored in JSON files. This
+                project was made using AngularJS..
+              </p>
+              <a href="https://github.com/MaryHoy/angularapp" target="_blank">
+                <button>Code</button>
+              </a>
+              <a
+                href="https://maryhoy.github.io/angularapp/welcome"
+                target="_blank">
+                <button>Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/todo.png"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">ToDo App</div>
+              <p>
+                An app which will track a list of custom tasks that also allows
+                users
+                to cross tasks out when complete or delete tasks.
+                This project was made with Vue.js.
+              </p>
+              <a href="https://github.com/maryhoy/todo" target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://maryhoy.github.io/todo" target="_blank">
+                <button>Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/pokedex.png"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Pokedex</div>
+              <p>
+                The Pokedex app allows users to view information on various
+                Pokémon. This project was made with JavaScript and jQuery.
+              </p>
+              <a href="https://github.com/MaryHoy/simple-js-app"
+                target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://maryhoy.github.io/" target="_blank">
+                <button>Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid_item">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="img/tbd.jpg"
+                width="350px"
+                height="200px"
+                style="border-radius: 6px;"
+                />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Coming Soon!</div>
+              <p>
+                An app I will be working on.
+              </p>
+              <a href="https://github.com/maryhoy/tbd" target="_blank">
+                <button>Code</button>
+              </a>
+              <a href="https://maryhoy.github.io/tbd/" target="_blank">
+                <button>Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+
+    <div class="footer-fix">
+      <footer class="page-footer">
+        Find me on<br />
+        <div class="social-media">
+          <a href="https://github.com/Jessbob" target="_blank"><img
+              src="img/github.png" alt="Github" height="40" width="40"
+              /></a>
+          <a
+            href="https://www.linkedin.com/in/jesse-whitehead-4ba7a544"
+            target="_blank"><img src="img/linkedin.png" alt="LinkedIn"
+              height="40" width="40"
+              /></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
