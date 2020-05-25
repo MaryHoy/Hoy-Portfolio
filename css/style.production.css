@@ -188,7 +188,7 @@ body {
 }
 
 .about {
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -218,7 +218,7 @@ a {
 
 a:visited {
   /* visited link */
-  color: #5c5c5c;
+  color: #e0e0e0;
 }
 a:hover,
 a:focus {
